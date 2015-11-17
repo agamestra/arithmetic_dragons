@@ -20,6 +20,8 @@ class Hero(Attacker):
     def attack(self, target):
         target._health -= self._attack
 
+    def experience (self):
+        self._experience += self._attack
 
     def gameOver (self):
         pass
