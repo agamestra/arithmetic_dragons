@@ -13,6 +13,7 @@ class Hero(Attacker):
     _name = None
 
     def __init__(self, name):
+        self._name = name
         self._health = 100
         self._attack = 50
         self._experience = 0
